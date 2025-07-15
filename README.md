@@ -42,4 +42,9 @@ Jira Logs Viewer is a lightweight and secure tool that helps you visualize the t
 
 ```bash
 git clone https://github.com/rxalimurad-art/jiraviewer.git
-cd jira-logs-viewer
+cd jiraviewer
+npm run dev
+
+> The app should now be running at:
+👉 http://localhost:3000
+
