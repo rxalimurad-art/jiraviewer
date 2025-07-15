@@ -23,7 +23,7 @@ const Header: React.FC<HeaderProps> = ({ username }) => {
       <div className="flex items-center gap-6">
         {/* GitHub Code Link */}
         <a
-          href="https://github.com/your-username/your-repo"
+          href="https://github.com/rxalimurad-art/jiraviewer"
           target="_blank"
           rel="noopener noreferrer"
           title="View Source Code on GitHub"
