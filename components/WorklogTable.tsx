@@ -31,18 +31,26 @@ const WorklogTable: React.FC<WorklogTableProps> = ({ worklogs }) => {
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-200">
-            {worklogs.map((item) => (
-              <tr key={item.id} className="hover:bg-gray-50">
-                <td className="px-4 py-3 text-gray-600">{item.date}</td>
-                <td className="px-4 py-3 text-gray-600">{item.user}</td>
-                <td className="px-4 py-3 text-gray-900 font-medium">
-                  {item.issueKey}
-                </td>
-                <td className="px-4 py-3 text-gray-600">{item.summary}</td>
-                <td className="px-4 py-3 text-gray-600">{item.hours}h</td>
-              </tr>
-            ))}
-          </tbody>
+  {worklogs.map((item) => (
+    <tr key={item.id} className="hover:bg-gray-50">
+      <td className="px-4 py-3 text-gray-600">{item.date}</td>
+      <td className="px-4 py-3 text-gray-600">{item.user}</td>
+      <td className="px-4 py-3 text-gray-900 font-medium">
+        <a
+          href={`https://tracking.i2cinc.com/browse/${item.issueKey}`}
+          className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {item.issueKey}
+        </a>
+      </td>
+      <td className="px-4 py-3 text-gray-600">{item.summary}</td>
+      <td className="px-4 py-3 text-gray-600">{item.hours}h</td>
+    </tr>
+  ))}
+</tbody>
+
         </table>
       </div>
     </div>
