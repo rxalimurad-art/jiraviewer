@@ -45,6 +45,4 @@ git clone https://github.com/rxalimurad-art/jiraviewer.git
 cd jiraviewer
 npm run dev
 
-> The app should now be running at:
-👉 http://localhost:3000
 
