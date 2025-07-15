@@ -36,7 +36,7 @@ Jira Logs Viewer is a lightweight and secure tool that helps you visualize the t
 
 ## 📦 Installation & Development
 
-> You only need this if you're running it locally. Most users can just visit the [hosted version](jiralogsviewer.netlify.app).
+> You only need this if you're running it locally. Most users can just visit the [hosted version](https://jiralogsviewer.netlify.app).
 
 ### 1. Clone the repo
 
