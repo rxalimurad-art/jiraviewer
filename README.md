@@ -41,5 +41,5 @@ Jira Logs Viewer is a lightweight and secure tool that helps you visualize the t
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/jira-logs-viewer.git
+git clone https://github.com/rxalimurad-art/jiraviewer.git
 cd jira-logs-viewer
